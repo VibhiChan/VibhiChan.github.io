@@ -10,7 +10,12 @@ html,body{
     background-position: center center;
     background-position-x: 75%;
     background-attachment: fixed;
-    background-color: rgb(255, 22, 138);
+    background-color: #FF0085;
     background-size: cover;
     background-origin: border-box;
+}
+
+.title-text{
+    font-size:200%;
+    text-shadow: 0px 0px 10px #ff008469;
 }
