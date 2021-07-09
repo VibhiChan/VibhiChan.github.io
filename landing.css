@@ -1,0 +1,16 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html,body{
+    background-image: url('images/Ravenhearst09.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: 75%;
+    background-attachment: fixed;
+    background-color: rgb(255, 22, 138);
+    background-size: cover;
+    background-origin: border-box;
+}
