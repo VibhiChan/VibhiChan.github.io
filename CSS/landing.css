@@ -17,6 +17,8 @@ html,body{
 
 header{
     background-color: #00000039;
+    position: sticky;
+    top: 0px;
 }
 
 .title-text{
@@ -85,8 +87,8 @@ max-width: 50vw;
 /* FANART.HTML */
 .fanart{
     transform: scale(1);
-    transition: all 0.25s ease;
-    cursor:grab;
+    transition: all 0.25s;
+    cursor:pointer;
 }
 .fanart:hover{
     transform: scale(1.05);
