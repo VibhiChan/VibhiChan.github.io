@@ -72,3 +72,14 @@ max-width: 50vw;
     }
 
 }
+
+/* FANART.HTML */
+.fanart{
+    transform: scale(1);
+    transition: all 0.25s;
+    cursor:pointer;
+}
+.fanart:hover{
+    transform: scale(1.05);
+    box-shadow:0px 0px 10px #ff008569;
+}
