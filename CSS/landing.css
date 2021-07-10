@@ -5,7 +5,7 @@
 }
 
 html,body{
-    background-image: url('images/fanart/Ravenhearst09.png');
+    background-image: url('../images/fanart/Ravenhearst09.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-position-x: 75%;
@@ -31,25 +31,44 @@ header{
 .btn{
     background-color: #7289DA;
     color: white;
-    border-width: 5px;
-    border-color: #7289DA;
     
 }
 .btn:hover{
     background-color: #23272a;
-    border-color: #7289DA;
     
 }
 
 .landing-text{
-
-    margin-top: 20%;
-    margin-bottom: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
     color: white;
     font-size: 200%;
     text-shadow: 2px 2px 5px #7289DA;
+    
 }
 
 .landing-text em{
     font-size: 120%;
+}
+
+.landing-text .btn{
+    font-size: 90%;
+}
+
+/* COMMANDS.HTML */
+.input-group{
+max-width: 50vw;
+}
+
+.card{
+    margin: 20px;
+    max-width: 750px;
+    background-color: #23272adc !important;
+} 
+
+@media (max-width: 991px) {
+    .input-group{
+        max-width: 80vw;
+    }
+
 }
