@@ -19,6 +19,7 @@ header{
     background-color: #00000039;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 .title-text{
@@ -60,8 +61,6 @@ header{
 footer{
     background-color: #00000039;
     padding-inline: 20px;
-    position: absolute;
-    bottom: 0px;
 }
 .footer-text{
     font-size: smaller;
