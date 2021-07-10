@@ -31,11 +31,11 @@ header{
 .btn{
     background-color: #7289DA;
     color: white;
-    
+    transition: 1s;
 }
+
 .btn:hover{
-    background-color: #23272a;
-    
+    background-color: #23272a;   
 }
 
 .landing-text{
