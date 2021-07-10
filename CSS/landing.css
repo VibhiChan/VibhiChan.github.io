@@ -85,8 +85,8 @@ max-width: 50vw;
 /* FANART.HTML */
 .fanart{
     transform: scale(1);
-    transition: all 0.25s;
-    cursor:pointer;
+    transition: all 0.25s ease;
+    cursor:grab;
 }
 .fanart:hover{
     transform: scale(1.05);
