@@ -58,6 +58,8 @@ header{
 footer{
     background-color: #00000039;
     padding-inline: 20px;
+    position: absolute;
+    bottom: 0px;
 }
 .footer-text{
     font-size: smaller;
